@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Assignment 2.2</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body{
+background-color:aqua;
+}
+.app{
+
+width:200px;
+height:200px;
+margin:100px;
+background-color:white;
+text-align:center;
+}
+
+.app1{
+position:absolute;
+width:100px;
+height:100px;
+top:100px;
+left:107px;
+background-color:red;
+transition-property:transform;
+transform-origin:top left;
+transition-duration:1s;
+
+}
+.app:hover .app1{
+transform:rotate(90deg);
+}
+
+.app4{
+position:absolute;
+width:100px;
+height:100px;
+top:100px;
+left:207px;
+background-color:yellow;
+transition-property:transform;
+transform-origin:top right;
+transition-duration:1s;
+}
+
+.app:hover .app4{
+transform:rotate(-90deg);
+}
+.app2{
+position:absolute;
+width:100px;
+height:100px;
+top:200px;
+left:107px;
+background-color:blue;
+transition-property:transform;
+transform-origin:bottom left;
+transition-duration:1s;
+}
+
+.app:hover .app2{
+transform:rotate(-90deg);
+}
+
+.app3{
+position:absolute;
+width:100px;
+height:100px;
+top:200px;
+left:207px;
+background-color:green;
+transition-property:transform;
+transform-origin:bottom right;
+transition-duration:1s;
+}
+
+.app:hover .app3{
+transform:rotate(90deg);
+}
+p{
+text-align:center;
+padding:90px;
+}
+
+
+</style>
+</head>
+<body>
+<div class="app">
+<p>Hi!</p>
+<div class="app1"></div>
+<span class="app4"></span>
+<div class="app2"></div>
+<span class="app3"></span>
+</div>
+</body>
+</html>
+

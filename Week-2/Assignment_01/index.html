@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Assignment 2.1</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.header{
+width:100%;
+height:150px;
+background-color:blue;
+text-align:center;
+}
+.section1{
+width:50%;
+height:400px;
+background-color:green;
+}
+
+#app{
+display:flex;
+flex-direction:rows;
+}
+
+.section2{
+width:50%;
+height:400px;
+background-color:yellow;
+}
+
+.footer{
+width:100%;
+height:130px;
+background-color:red;
+transition-property:background-color;
+}
+
+.footer:hover{
+background-color:brown;
+}
+
+h3::first-letter{
+color:red;
+}
+
+h2::first-letter{
+color:red;
+}
+
+h4::first-letter{
+color:green;
+}
+
+#MyImage{
+width:150px;
+height:130px;
+transition-property:width;
+transition-duration:2s;
+
+}
+
+#MyImage:hover{
+width:400px;
+}
+
+</style>
+<body>
+<div class="header">
+<h2>Lorem Ipsum</h2>
+<h4>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</h4>
+<p>"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."</p>
+</div>
+<div id="app">
+<div class="section1">
+<form>
+<fieldset>
+<legend>Fill Details</legend>
+<label>Title</label>
+<input type="radio" id="mr" name="title" value="Mr">
+<input type="radio"id="mrs" name="title" value="Mrs">
+<input type="radio" id="miss" name="title" value="Miss"><br><br>
+<label>First Name</label>
+<input type="text" name="name" required><br><br>
+<label>Last Name</label>
+<input type="text" required><br><br>
+<label>Email</label>
+<input type="email" required><br><br>
+<label>Phone Number</label>
+<input type="phone number" required><br><br>
+<label>Password</label>
+<input type="password" required><br><br>
+<label>Confirm your password</label>
+<input type="password" required><br><br>
+<label for="country" required>Country</label>
+<select name="country" id="country" required>
+    <option value="India"></option>
+    <option value="India">India</option>
+    <option value="Srilanka">SriLanka</option>
+    <option value="Bhutan">Bhutan</option>
+    <option value="Nepal">Nepal</option>
+  </select><br>
+<input type="checkbox" required><span>I agree to the <a href="https://www.google.com" target="_blank">terms and conditions</a></span><br>
+<input type="submit" value="Sign up">
+</fieldset>
+<form>
+
+</div>
+
+
+
+
+<div class="section2">
+<h3>What is Lorem Ipsum?</h3>
+<p>Lorem Ipsum is simply dummy text of the 
+printing and typesetting industry. Lorem Ipsum 
+has been the industry's standard dummy text ever since
+ the 1500s, when an unknown printer took a galley of 
+ type and scrambled it to make a type specimen book.</p>
+ <h3>Why do we use it?</h3>
+<p>It is a long established fact that a reader will be 
+distracted by the readable content of a page when looking 
+at its layout. The point of using Lorem Ipsum is that 
+it has a more-or-less normal distribution of letters,
+ as opposed to using.</p>
+ <h3>Where does it come from?</h3>
+<p>Contrary to popular belief, Lorem Ipsum is not 
+simply random text. It has roots in a piece of 
+classical Latin literature from 45 BC, making it over
+ 2000 years old. Richard McClintock.</p>
+ </div>
+</div>
+<div class="footer">
+<img id="MyImage" src="C:\Users\Lenovo\Desktop\assignment.jpg">
+<span><b>There is a set of mock banners available </b><a href="https://www.lipsum.com/banners/" target="_blank">here</a> 
+<b>in three colours and in a range of standard banner</b></span>
+</div>
+</body>
+</html>

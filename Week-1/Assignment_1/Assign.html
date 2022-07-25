@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Assignment</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://kit.fontawesome.com/76c9f9a97f.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="./C:/Users/Lenovo/Desktop/HTML/line-awesome/line_awesome.min.css">
+
+</head>
+<body>
+<style> 
+
+/*Border around the page*/
+body {
+margin: 0;
+padding: 0;
+border: 2px solid #000000;
+}
+.header{
+height:220px;
+width:99.7%;
+color:white;
+    position:absolute;
+    top:0;
+	background-color:black;
+}
+     
+    img {  
+      width: 200px; 
+      float: left; 
+      margin-right: 10px; 
+	  padding-top:15px;
+	  padding-left:100px;
+    } 
+	
+	 .img1 {  
+      width: 90px; 
+	  height:90px;
+      float:left; 
+	  padding-right:10px;
+      margin-right:10px; 
+	  margin-top:5px;
+	  margin-bottom:10px;
+	  padding-top:10px;
+	  
+    } 
+	
+	table {
+  border-collapse: collapse;
+  position:absolute;
+  width: 92%;
+  margin-top:-350px;
+  margin-left:80px;
+ 
+  
+ 
+}
+td {
+  text-align: left;
+  padding: 2px;
+  padding-left:100px;
+   
+ 
+}
+tr:nth-child(even) {
+  background-color:gray;
+}
+
+
+.sidebar {
+  height: 100%;
+  width: 50px;
+  padding-bottom:50px;
+  position: relative;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:gray;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Style sidebar links */
+.sidebar a {
+  padding: 30px 0px 10px 10px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  display: block;
+}
+
+/* Style links on mouse-over */
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+/* Style the main content */
+.main {
+  margin-left: 500px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+}
+
+/* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+.footer {
+height:120px;
+width:100%;
+
+    position:relative;
+    bottom:0;
+	background-color:blue;
+}
+
+
+.button {
+  background-color: white;
+  margin:2px 4px;
+  size:100%;
+  border: solid-black;
+  color: blue;
+  padding: 15px 32px;
+  text-align: center;
+  
+}
+
+
+.footer--icons {
+  display: flex;
+  align-items: flex-center;
+  justify-content: center;
+}
+  </style> 
+   <div class="header">
+  <img src="C:\Users\Lenovo\Desktop\assignment.jpg" width="180" height="180"> 
+  
+<br>
+  <div><strong>CattyBoard Top 100 Single Charts(11.06.36)</strong>
+  <p>Unknown Artist</a>
+  <p>2016.Charts.100 songs</p>
+  </div>
+  <br><br><br>
+  
+  <i class="fa-solid fa-play"><small style="font-size:8px">Play all   </small></i>
+<i class="fa-solid fa-plus"><small style="font-size:8px">Add to    </small></i>
+<i class="fa-solid fa-ellipsis"><small style="font-size:8px">More    </small></i>
+
+</div>
+
+<div class="sidebar">
+  
+  <a href="#bars"><i class="fa-solid fa-bars"></i></a>
+  <a href="#home"><i class="fa-solid fa-house"></i></a>
+  <a href="#search"><i class="fa-solid fa-magnifying-glass"></i></a>
+  <a href="#Volume-high"><i class="fa-solid fa-volume-high"></i></a>
+  <a href="#user"><i class="fa-solid fa-user"></i></a>
+  <a href="#spotify"><i class="fa-brands fa-spotify"></i></a>
+  <a href="#gear"><i class="fa-solid fa-gear"></i></a>
+  <a href="#soundcloud"><i class="fa-brands fa-soundcloud"></i></a>
+
+</div>
+
+<table>
+  <tr>
+  <td>1. One Dance</td>
+  <td>Crake Feat CatKid & Cyla</td>
+  <td>2:54</td>
+  <td><button class="button">CATTY CLOUD SYNC</button></td>
+  </tr>
+  <tr>
+  <td>2. Panda</td>
+  <td>Cattee</td>
+  <td>4:06</td>
+  <td><button class="button">CATTY CLOUD SYNC</button></td>
+  </tr>
+  <tr>
+  <td>3. Can't Stop the feeling!</td>
+  <td>Catin Cimberlake</td>
+  <td>3:56</td>
+  <td><button class="button">CATTY CLOUD SYNC</button></td>
+  </tr>
+  <tr>
+  <td>4. Work From Home</td>
+  <td>Cat Harmony feat Colla</td>
+  <td>3:34</td>
+  <td><button class="button">CATTY CLOUD SYNC</button></td>
+  </tr>
+  
+</table>
+
+<div class="footer">
+<li> <img class="img1" src="C:\Users\Lenovo\Desktop\assignment.jpg" width="90" height="90">
+</li>
+<div>
+<p>If it Ain't Love </p> 
+</div>
+/*Using Span to keet icons in the same line*/
+<p "padding=100px">Catson Derulo 
+<span style="padding-left:500px">
+
+<i class="fa-solid fa-backward-step"style="padding-right:126px"></i>
+
+<i class="fa-solid fa-pause" style="padding-right:126px"></i>
+
+<i class="fa-solid fa-forward-step" style="padding-right:125px"></i>
+
+<i class="fa-solid fa-rotate-right" style="padding-right:135px"></i>
+
+<i class="fa-solid fa-shuffle" style="padding-right:135px"></i>
+
+
+</span>
+
+</p>
+</div>
+
+</body>
+</html>
