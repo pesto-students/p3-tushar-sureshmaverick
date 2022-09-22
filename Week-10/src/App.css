@@ -1,0 +1,156 @@
+/* css designing of header class */
+.header {
+  position:absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  background: white;
+  color:blue;
+  font-size: 30px;
+  height: 110px;
+}
+/* css designing of child of header class */
+.header h2{
+  position: absolute;
+  color: black;
+  font-size: 25px;
+  margin-left: 30px;
+  margin-bottom: 0px;
+  bottom: 0px;
+}
+/* css designing of child of header class */
+.header span{
+  color: blue;
+  font-size: 15px;
+  float: right;
+  padding-left: 80px;
+  padding-bottom: 100px;
+}
+
+/* css designing of footer class */
+.footer {
+  padding: 5px;
+  position:absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  background: black;
+  color: white;
+  font-size: 30px;
+}
+/* css designing of child of footer class */
+.footer h2{
+  position: absolute;
+  color: gray;
+  font-size: 25px;
+  margin-left: 30px;
+  margin-bottom: 150px;
+  bottom: 0px;
+}
+/* css designing of child of footer class */
+.footer span{
+  color: white;
+  font-size: 15px;
+  float: right;
+  padding-left: 80px;
+}
+/* css designing of container class */
+.container {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: gainsboro;
+  
+}
+/* css designing of child of input class */
+.inputContainer h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 56px;
+  color: black;
+  margin-bottom: 24px;
+}
+.inputContainer h1 p {
+  color: black;
+}
+.inputContainer div {
+  display: flex;
+  margin-bottom: 32px; 
+}
+.inputContainer input {
+  width: 100%;
+  padding: 8px 8px 8px 16px;
+  text-indent: 16px;
+  border-radius: 8px;
+  outline: gray;
+  font-size: 16px;
+}
+/* css designing of placeholder class */
+.inputContainer input::placeholder {
+  font-size: 14px;
+}
+/* css designing of button*/
+.inputContainer button {
+  padding: 10px 16px;
+  height: 48px;
+  width: 180px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #fff;
+  background-color: aqua;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* Result */
+.result {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 16px;
+}
+.result p {
+  color: black;
+  border: 1px solid var(--primary-color);
+  border-color: black;
+  border-radius: 8px;
+  padding: 8px 16px;
+  margin-right: 16px;
+}
+/* Result button */
+.result button {
+  padding: 8px 16px;
+  color: #fff;
+  cursor: pointer;
+  background: aqua;
+  border-radius: 8px;
+}
+/* Result copy button */
+.result button.copied {
+  background: #fff;
+  color: var(--primary-color);
+}
+/* Result css for empty data */
+.noData {
+  color: #fff;
+  font-size: 16px;
+}
+
+
+
+
+
+.background {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  background:gainsboro;
+  overflow: hidden;
+  z-index: -1;
+}
