@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Assignment</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  background-color: lightblue;
+}
+</style>
+<h1>Calculator</h1>
+</head>
+<body>
+<fieldset>
+<legend>Enter Values</legend>
+<form oninput="result.value=a.valueAsNumber + b.valueAsNumber">
+<label>Add 2 Numbers to add:</label>
+<br>
+<label>Enter First No.:<input type="number" id="a" name="a"></label>
+<label>Enter Second No.:<input type="number" id="b" name="b"></label>
+<output type="number" name="result" for"a b">0</output>
+</form>
+
+<form oninput="result.value=a.valueAsNumber - b.valueAsNumber">
+<label>Add 2 Numbers to Subtract:</label>
+<br>
+<label>Enter First No.:<input type="number" id="a" name="a"></label>
+<label>Enter Second No.:<input type="number" id="b" name="b"></label>
+<output type="number" name="result" for"a b">0</output>
+</form>
+
+<form oninput="result.value=a.valueAsNumber * b.valueAsNumber">
+<label>Add 2 Numbers to Multiply:</label>
+<br>
+<label>Enter First No.:<input type="number" id="a" name="a"></label>
+<label>Enter Second No.:<input type="number" id="b" name="b"></label>
+<output type="number" name="result" for"a b">0</output>
+</form>
+
+<form oninput="result.value=a.valueAsNumber / b.valueAsNumber">
+<label>Add 2 Numbers to Divide:</label>
+<br>
+<label>Enter First No.:<input type="number" id="a" name="a"></label>
+<label>Enter Second No.:<input type="number" id="b" name="b"></label>
+<output type="number" name="result" for"a b">0</output>
+</form>
+</fieldset>
+</body>
+</html>
